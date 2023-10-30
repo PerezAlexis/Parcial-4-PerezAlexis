@@ -1,0 +1,286 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Condensed:wght@200;300;400;600;800&display=swap');
+
+
+ *{
+    box-sizing: border-box;
+    font-family:'Work Sans' ;
+    margin: 0;
+    padding: 0;
+ }
+ html{
+    /* me permite deslizar cuando hago click en los link del menu */
+    scroll-behavior: smooth; 
+ }
+ 
+ 
+ /* menu encabezado*/
+ .contenedor-header{
+    background: grey;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    border-bottom: 2px solid rgb(255, 0, 128);
+
+ }
+ .contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+ }
+ .contenedor-header header .logo a{
+    font-family: 'Righteous';
+    font-size: 40px;
+    color: rgb(0, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+ }
+ .contenedor-header header ul{
+    display: flex;
+    list-style: none;
+    
+ }
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color: white;
+    margin: 0 15px;
+    padding: 3px;
+    text-decoration: none;
+    font-family: 'Righteous';
+    transition: .5s;
+
+    
+}
+.contenedor-header header nav ul li a:hover{
+    color: rgb(255, 0, 128);
+}
+.navegador-responsivo{
+    background-color: aqua;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: none;
+}
+
+/* menu */
+.inicio{
+   background:url(images/urano-cielo-noche-juego-activos-fondo-2d-futurista-generativo-ai.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   height: 1000px;
+   color: white;
+   display: flex;
+   align-items: center;
+   border-bottom: 2px solid rgb(255, 0, 128);
+}
+.inicio .banner{
+   padding: 20px;
+   background-color: gray;
+   max-width: 350px;
+   margin: auto;
+   text-align: center;
+   border-radius: 50px ;
+   border: 10px solid rgb(255, 0, 128);;
+}
+.fotoperfil{
+   border-radius: 50px;
+   margin-top: 40px;
+   border: 10px solid aqua;
+   display: block;
+   width: 80%;
+   margin: auto;
+   
+}
+.inicio .banner h1{
+   margin-top: 20px;
+   font-family:'Righteous' ;
+   font-size: 50px;
+}
+.inicio .banner h2{
+   margin-top: 5px;
+   font-family:'Righteous' ;
+   font-size: 20px;
+}
+.inicio .banner .redes a{
+   color: white;
+   display: inline-block;
+   text-decoration: none;
+   border: 1px solid white;
+   border-radius: 100%;
+   width: 40px;
+   height: 35px;
+   margin: 30px 5px;
+   font-size: 20px;
+   transition: .50s;
+   padding: 5px;
+   
+}
+.inicio .banner .redes a:hover{
+   background-color: aqua;
+}
+
+.sobremi{
+   background-color: gray;
+   color: white;
+   padding: 50px 50px;
+   border-bottom: 2px solid rgb(255, 0, 128);
+}
+.sobremi .contenidosobremi{
+   max-width: 1100px;
+   margin: auto;
+}
+.sobremi h2{
+   font-size: 48px;
+   font-family:'Righteous' ;
+   text-align: center;
+   padding: 20px 0;
+}
+.sobremi .contenidosobremi p{
+   font: 18px;
+   line-height: 22px;
+   margin-bottom: 20px;
+   font-family: 'Righteous';
+}
+.sobremi .contenidosobremi p span{
+   color: aqua;
+   font-weight: bold;
+}
+.sobremi .fila {
+   display: flex;
+}
+
+.portafolio {
+   padding: 50px;
+   text-align: center;
+   background-color: gray;
+   border-bottom: 2px solid rgb(255, 0, 128);
+   
+}
+
+.portafolio-1 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 100px;
+}
+
+.portafolio-txt {
+   flex-basis: 50%;
+   text-align: left;
+   font-family:'Righteous' ;
+   
+}
+
+.portafolio-txt span {
+   font-size: 18px;
+   font-weight: 600;
+   display: block;
+   color: #00e1ff;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   font-family: 'Righteous';
+}
+
+.portafolio-txt h3 {
+   color: #ffffff;
+   font-size: 35px;
+   text-transform: capitalize;
+   margin-bottom: 20px;
+   font-family: 'Righteous';
+}
+
+.portafolio-txt p {
+   font-size: 17px;
+   color: #afafaf;
+   margin-bottom: 25px;
+   color: white;
+   font-family: 'Righteous';
+
+}
+
+.portafolio-img {
+   flex-basis: 50%;
+   text-align: center;
+   
+}
+
+.portafolio-img img {
+   width: 400px;
+   border-radius: 50px;
+   border: 10px solid rgb(255, 0, 128);;
+}
+.portafolio h2{
+   font-family: 'Righteous';
+   font-size: 50px;
+   color: rgb(255, 0, 128);;
+   
+}
+
+   
+.btn-1{
+   padding: 10px;
+   background-color: #00e1ff;
+   border-radius: 10px;
+   text-decoration: none;
+   font-size: 25px;
+   color: white;
+   font-family: 'Righteous';
+
+}
+.btn-1:hover{
+   background-color: rgb(255, 0, 128);
+}
+.sobremi {
+   padding: 50px;
+   background-color: gray;
+
+}
+.sobremi .parrafo{
+   font-family:'Righteous' ;
+   text-align: left;
+
+}
+.sobremi h2{
+   font-family: 'Righteous';
+   font-size: 50px;
+   color: rgb(255, 0, 128);;
+}
+.parrafo span{
+   color: aqua;
+   font-family:  'Righteous';
+   
+}
+
+.datos ul li  {
+   font-family: 'Righteous' ;
+}
+.datos ul li strong {
+   font-family: 'Righteous' ;
+}
+.datos{
+   
+   justify-content: center ;
+   gap: 50px;
+
+}
+.buton{
+   color: #00e1ff;
+   text-decoration: none;
+   
+}
+.d-pers{
+   font-family:'Righteous' ;
+   margin: 15px;
+   color: rgb(255, 0, 128);;
+}
+.buton{
+   
+   padding: 50px;
+   border-radius: 20px;
+
+}
