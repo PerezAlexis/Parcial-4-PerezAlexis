@@ -1,0 +1,5 @@
+https://cdnjs.com/libraries/font-awesome
+https://fontawesome.com/icons/bars?f=classic&s=solid (icono de menu responsivo)
+https://fonts.google.com/specimen/Righteous?query=righ  __ https://fonts.google.com/specimen/Roboto+Condensed?query=ri (Letras)
+netlify donde subi todos los archivos para que se puedan abrir 
+imagen del espacio sacada de freepik
