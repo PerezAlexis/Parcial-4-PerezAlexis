@@ -10,7 +10,7 @@
  }
  html{
     /* me permite deslizar cuando hago click en los link del menu */
-    scroll-behavior: smooth; 
+    scroll-behavior:s; 
  }
  
  
@@ -273,6 +273,7 @@
    color: #00e1ff;
    text-decoration: none;
    
+   
 }
 .d-pers{
    font-family:'Righteous' ;
@@ -369,7 +370,7 @@ footer{
    transition: 2s;
 
 }
-   
+
 
 
 
