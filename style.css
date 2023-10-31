@@ -10,7 +10,7 @@
  }
  html{
     /* me permite deslizar cuando hago click en los link del menu */
-    scroll-behavior:s; 
+    scroll-behavior:smooth; 
  }
  
  
@@ -123,7 +123,7 @@
 .inicio .banner .redes a:hover{
    background-color: aqua;
 }
-
+/*informacion*/
 .sobremi{
    background-color: gray;
    color: white;
@@ -153,7 +153,22 @@
 .sobremi .fila {
    display: flex;
 }
+.sobremi {
+   padding: 50px;
+   background-color: gray;
 
+}
+.sobremi .parrafo{
+   font-family:'Righteous' ;
+   text-align: left;
+
+}
+.sobremi h2{
+   font-family: 'Righteous';
+   font-size: 50px;
+   color: rgb(255, 0, 128);;
+}
+/*Portafolio*/
 .portafolio {
    padding: 50px;
    text-align: center;
@@ -161,7 +176,6 @@
    border-bottom: 5px solid rgb(255, 0, 128);
    
 }
-
 
 .portafolio-1 {
    display: flex;
@@ -236,21 +250,8 @@
 .btn-1:hover{
    background-color: rgb(255, 0, 128);
 }
-.sobremi {
-   padding: 50px;
-   background-color: gray;
 
-}
-.sobremi .parrafo{
-   font-family:'Righteous' ;
-   text-align: left;
 
-}
-.sobremi h2{
-   font-family: 'Righteous';
-   font-size: 50px;
-   color: rgb(255, 0, 128);;
-}
 .parrafo span{
    color: aqua;
    font-family:  'Righteous';
@@ -286,6 +287,7 @@
    border-radius: 20px;
 
 }
+/*contacto*/
 
 .tit-cont h3{
    font-family: 'Righteous';
@@ -294,6 +296,7 @@
    display: flex;
    justify-content: center;
 }
+
 
 .formulario-section{
    display: flex;
@@ -339,7 +342,7 @@
 }
 
 
-
+/*footer*/
 
 footer{
    background:url(images/urano-cielo-noche-juego-activos-fondo-2d-futurista-generativo-ai.jpg);
